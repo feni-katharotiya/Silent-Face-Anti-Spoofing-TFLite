@@ -1,0 +1,9 @@
+To Convert ONNX to TensorflowLite
+
+Step 1:
+
+python3 pth_to_onnx.py
+
+Step 2:
+
+onnx2tf -i path_to_onnx/model.onnx -o dst_path/model_tf

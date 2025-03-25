@@ -1,0 +1,9 @@
+# For running tflite models and pipeline
+
+python3 test_tflite.py  --image_name ./data/Spoof_aspect_resized \
+--model_dir /home/deepkaneria/Documents/AntiSpoofing/Silent-Face-Anti-Spoofing-master/converted_models/tf_model/f32
+
+
+Note:
+The input image must be of 4:3 aspect ratio.
+There's an python script 'resize_to_aspect.py' to bulk convert images to the required aspect ratio.

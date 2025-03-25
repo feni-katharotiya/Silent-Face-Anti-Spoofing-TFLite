@@ -1,0 +1,1 @@
+Copy file here and when asked about file path directly insert file path e.g. file.pb. instead of C:\etc\etc\...\etc\file.pb

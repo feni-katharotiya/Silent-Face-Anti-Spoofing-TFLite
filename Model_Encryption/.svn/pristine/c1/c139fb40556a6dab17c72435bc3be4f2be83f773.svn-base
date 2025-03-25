@@ -1,0 +1,13 @@
+
+================== TO GENERATE IV & KEY ===========================
+openssl enc -aes-128-cbc -k secret -P -md sha1 -pbkdf2 -iter 10000
+================== TO GENERATE IV & KEY ===========================
+
+================== GENERATED IV & KEY ===========================
+Encrypting/Decrypting IV Key = D88BB4939173071024B218AA3BD79386
+Encrypting/Decrypting Key = 45253EF008AD7D4287382EF630360773
+================== GENERATED IV & KEY ===========================
+
+For Reference Refer:
+svn://192.168.100.5/Products/IVA/SWD/feasibility/Kapil/Model-Encryption-Decryption-POC/OpenSSL-Key-IV-Example.PNG
+https://www.ibm.com/support/knowledgecenter/SSWSR9_11.6.0/com.ibm.swg.im.mdmhs.release.installpostcfg.doc/topics/t_einstall_GenerateAESkey.html
